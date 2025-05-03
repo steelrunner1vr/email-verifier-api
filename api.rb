@@ -21,7 +21,7 @@ end
 
 # Truemail setup
 Truemail.configure do |config|
-  config.verifier_email = 'you@yourdomain.com'  # Replace this
+  config.verifier_email = 'paul@pauldragoo.com'  # Replace this
   config.connection_timeout = 2
   config.response_timeout = 2
   config.connection_attempts = 1
