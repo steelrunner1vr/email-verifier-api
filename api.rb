@@ -21,10 +21,12 @@ end
 
 # Truemail setup
 Truemail.configure do |config|
-  config.verifier_email = 'paul@pauldragoo.com'  # Replace this
-  config.connection_timeout = 2
-  config.response_timeout = 2
-  config.connection_attempts = 1
+  config.verifier_email = 'paul@pauldragoo.com'
+  config.verifier_domain = 'pauldragoo.com'
+  config.connection_timeout = 5
+  config.response_timeout = 5
+  config.connection_attempts = 2
+  config.smtp_safe_check = true
 end
 
 # Email verification endpoint
